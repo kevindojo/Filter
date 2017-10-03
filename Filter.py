@@ -14,7 +14,7 @@ eL = []
 spL = ['name','address','phone number','social security number']
 
 def filter(x):
-    if isinstance(x,int):
+    if isinstance(x,int):   #checking(object(x),classinfo(int)) comparing if the object matches the class info
         if x >= 100:
             print "That's a big number!"
         else:
